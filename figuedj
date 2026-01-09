@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figue DJ | Música y Producción de Eventos</title>
+  <style>
+    :root {
+      --primary: #8a2be2;
+      --bg-dark: #0b0b0f;
+      --text-light: #ffffff;
+      --text-gray: #bbbbbb;
+      --accent: #d633ff;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #000000, #25063f);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      color: var(--text-gray);
+    }
+    a.btn {
+      background: var(--primary);
+      padding: 12px 20px;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      border-left: 6px solid var(--primary);
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      margin-left: 10px;
+    }
+    ul li {
+      padding: 5px 0;
+    }
+    .form-box {
+      background: #12001f;
+      padding: 25px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: var(--primary);
+      border: none;
+      color: white;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      background: #000;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: .9rem;
+      color: var(--text-gray);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FIGUE DJ</h1>
+  <p>Música, sonido e iluminación para eventos inolvidables</p>
+  <a href="https://wa.me/593995815601" class="btn">Reservar ahora</a>
+</header>
+
+<section>
+  <h2>Quién soy</h2>
+  <p>Figue DJ es una propuesta profesional de música y producción de eventos con base en Quito y cobertura nacional. 
+  Ofrecemos repertorios personalizados, equipos de alta potencia y experiencia probada en todo tipo de celebraciones:
+  bodas, 15 años, corporativos, fiestas privadas y más.</p>
+</section>
+
+<section>
+  <h2>Servicios</h2>
+  <ul>
+    <li>DJ para bodas</li>
+    <li>15 años y cumpleaños</li>
+    <li>Fiestas privadas y club events</li>
+    <li>Eventos empresariales</li>
+    <li>Alquiler de sonido profesional</li>
+    <li>Iluminación inteligente y arquitectural</li>
+    <li>Efectos especiales (humo, chispas frías, CO₂)</li>
+    <li>Artistas invitados</li>
+    <li>Animación y conducción</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Cobertura</h2>
+  <p>Quito y cualquier ciudad del Ecuador.</p>
+</section>
+
+<section>
+  <h2>Reserva tu fecha</h2>
+
+  <div class="form-box">
+    <form action="mailto:figuedj@hotmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="date" name="fecha" required>
+      <input type="text" name="ubicacion" placeholder="Ciudad o dirección del evento" required>
+      <input type="number" name="invitados" placeholder="Número de invitados" required>
+      <select name="espacio" required>
+        <option value="">¿Espacio abierto o cerrado?</option>
+        <option>Abierto</option>
+        <option>Cerrado</option>
+      </select>
+      <select name="artistas" required>
+        <option value="">¿Requieren amplificación para artistas?</option>
+        <option>Sí</option>
+        <option>No</option>
+      </select>
+      <input type="tel" name="telefono" placeholder="Teléfono / WhatsApp" required>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto directo</h2>
+  <p>WhatsApp: <a href="https://wa.me/593995815601" style="color: var(--accent)">0995815601</a></p>
+  <p>TikTok: @figuedj</p>
+  <p>Email: figuedj@hotmail.com</p>
+</section>
+
+<footer>
+  © 2026 Figue DJ. Producción musical y técnica para eventos.
+</footer>
+
+</body>
+</html>
