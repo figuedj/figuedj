@@ -84,3 +84,43 @@ footer {
     margin-top: 40px;
 
 }}
+.video-portada {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.video-portada video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    font-size: 1.8rem;
+}
+
+.tiktok-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #080808;
+}
+
+.tiktok-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tiktok-embed {
+    display: flex;
+    justify-content: center;
+}
